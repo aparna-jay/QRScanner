@@ -1,7 +1,6 @@
 package com.example.qrscanner;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -31,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Scan QR code on button click
+        //Navigate to QR code scanner on button click
         btnScanQR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, CameraPreviewActivity.class);
+                Intent intent = new Intent(MainActivity.this, QRCodeScannerActivity.class);
                 startActivity(intent);
             }
         });

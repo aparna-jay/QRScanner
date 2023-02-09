@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QRScanner</string>
+    <string name="btnGetAndroidID">View Android ID</string>
+    <string name="btnQRCodeScanner">Scan QR Code</string>
+    <string name="openURL">Open URL</string>
+    <string name="qrCodeNotDetected">QR Code Not Detected</string>
+    <string name="stopScanner">To prevent memory leaks qr code scanner has been stopped</string>
+    <string name="startScanner">QR code scanner started</string>
 </resources>
